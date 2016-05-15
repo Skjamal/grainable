@@ -56,6 +56,6 @@ Grainable::Application.routes.draw do
   #   end
 
   root "grams#index"
-  resources :grams, only: [:new, :create]
+  resources :grams, only: [:new, :create, :show]
   
 end
