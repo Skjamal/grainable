@@ -1,5 +1,5 @@
 Grainable::Application.configure do
-  config.action_mailer.default_url_options = { host: 'localhost', port: 3030 }
+  config.action_mailer.default_url_options = { host: 'localhost:3030' }
   
 
   # Settings specified here will take precedence over those in config/application.rb.
