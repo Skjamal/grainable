@@ -39,7 +39,7 @@ group :development, :test do
   gem "factory_girl_rails", "~> 4.0"
 end
 
-gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sprockets', '2.12.5'
 gem 'simple_form'
 gem 'devise', '>= 3.2.4'
