@@ -91,7 +91,9 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    mimemagic (0.3.1)
+    mimemagic (0.4.3)
+      nokogiri (~> 1)
+      rake
     minitest (4.7.5)
     multi_json (1.14.1)
     net-scp (1.0.4)
@@ -184,7 +186,7 @@ GEM
       polyglot (>= 0.3.1)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (0.3.56)
+    tzinfo (0.3.61)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
     warden (1.2.6)
